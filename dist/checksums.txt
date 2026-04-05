@@ -1,0 +1,2 @@
+bffa7f65fb9337df81db2f384a406f78c5dfa0f514f9b0b02c5163291e7ad525  auto_update_app_local_compiled-x86_64-unknown-linux-gnu
+2f7490ae05964d6804a363482bdff0a21c1ba2da6224bbb56e588c2ff078d0a9  checksums.txt

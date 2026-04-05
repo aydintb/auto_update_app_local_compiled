@@ -2,6 +2,7 @@ use self_updater_helper::{run_update, UpdaterConfig};
 
 fn hello_world() {
     println!("Hello, world!");
+    println!("Cross-platform support: Linux, Windows, macOS");
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
