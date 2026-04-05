@@ -1,0 +1,21 @@
+      1 auto_update_app_local_compiled/
+      2 ├── .github/workflows/release.yml   # CI build (optional, for other platforms)
+      3 ├── .gitignore                       # /target, /Cargo.lock, .qwen/
+      4 ├── Cargo.toml
+      5 ├── release_local.sh                 # Build + upload to GitHub releases locally
+      6 ├── self_updater_helper/             # Reusable self-update library
+      7 │   ├── Cargo.toml
+      8 │   └── src/lib.rs
+      9 └── src/
+     10     └── main.rs
+
+
+     1. Local (source stays private):
+
+     1    cd auto_update_app_local_compiled
+     2    # bump version in Cargo.toml
+     3    ./release_local.sh
+       This builds locally, pushes a tag, and creates a GitHub release with the binary — no source code shared.
+
+
+
