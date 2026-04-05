@@ -1,0 +1,8 @@
+[package]
+name = "auto_update_app_local_compiled"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+self_update = "0.39"
+tokio = { version = "1", features = ["full"] }
